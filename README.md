@@ -1,4 +1,4 @@
-# kimxworrall.github.io
+# kimworrall.github.io
 
 ## Acknowledgements
 
