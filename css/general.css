@@ -17,21 +17,21 @@
 
 #compilers {
   font-family:  'PT Sans', Verdana, sans-serif;
-  max-width: 40%;
+  max-width: 90%;
 }
 
 #compilers a {
   text-decoration: none;
   color:black;
-  
+
   position: relative;
   padding: 3px;
   margin: -3px;
-  
+
   &, &:before {
       transition: all 0.3s;
   }
-  
+
   &:before {
     content: '';
     display: block;
@@ -45,10 +45,10 @@
     transition: width 0.3s;
     z-index: -1;
   }
-  
+
   &:hover {
     color: rgb(255, 255, 255);
-    
+
     &:before {
       width: 100%;
       right: auto;
@@ -61,22 +61,24 @@
   color: rgb(131, 154, 96);
 }
 
+
 h1 {
 font-size: 300%;
 font-family:  'Libre Franklin', Verdana, sans-serif;
-color: rgb(53, 60, 63);
+color: #90AE85;
 margin-top: 10px;
 margin-bottom: 0;
 }
 
 h2 {
 font-family:  'Libre Franklin', Verdana, sans-serif;
-color: rgb(86, 97, 102);
+color: #90AE85;
 margin-bottom: 0;
 }
 
 p {
 font-family:  'PT Sans', Verdana, sans-serif;
+
 }
 
 .off {
@@ -87,7 +89,6 @@ font-family:  'PT Sans', Verdana, sans-serif;
   font-family:  'Libre Franklin', Verdana, sans-serif;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
 }
 .off:hover {
     color: rgb(29, 36, 122);
@@ -101,21 +102,21 @@ font-family:  'PT Sans', Verdana, sans-serif;
 
 #body1 {
   font-family:  'PT Sans', Verdana, sans-serif;
-  max-width: 55%;
+  max-width: 90%;
 }
 
 #body1 a {
   text-decoration: none;
   color:black;
-  
+
   position: relative;
   padding: 3px;
   margin: -3px;
-  
+
   &, &:before {
       transition: all 0.3s;
   }
-  
+
   &:before {
     content: '';
     display: block;
@@ -129,10 +130,10 @@ font-family:  'PT Sans', Verdana, sans-serif;
     transition: width 0.3s;
     z-index: -1;
   }
-  
+
   &:hover {
     color: rgb(255, 255, 255);
-    
+
     &:before {
       width: 100%;
       right: auto;
@@ -144,9 +145,10 @@ font-family:  'PT Sans', Verdana, sans-serif;
 .flex-wrapper {
   display: flex;
   margin: 0% 12%;
-  min-height: 100vh;
+  min-height: 80vh;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 2px;
 }
 
 .flex-wrapper-head {
@@ -154,6 +156,7 @@ font-family:  'PT Sans', Verdana, sans-serif;
   margin: 0% 12%;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 120%;
 }
 
 .top {
@@ -169,6 +172,8 @@ font-family:  'PT Sans', Verdana, sans-serif;
 
 .flex-wrapper-body {
   display: flex;
+  margin: 0% 5%;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: left;
+  font-size: 120%;
 }
